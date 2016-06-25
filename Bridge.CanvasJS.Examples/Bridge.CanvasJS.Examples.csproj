@@ -53,8 +53,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bridge\output\bridge.canvasJS.examples.js" />
-    <Content Include="Bridge\output\bridge.min.js" />
     <Content Include="Bridge\output\canvasjs.min.js" />
     <Content Include="Bridge\output\examples.html" />
     <Content Include="Bridge\output\readme.txt" />
