@@ -18,13 +18,13 @@
                 return { x: x, y: y };
             },
             main: function () {
+                // adding new color set for the pie chart
+                CanvasJS.addColorSet("greenish", ["green", "darkgreen", "lightgreen"]);
+    
     
                 Bridge.CanvasJS.Examples.App.columnChart("columnChart").render();
     
-    
-                // adding new color set for the pie chart
-                CanvasJS.addColorSet("greenish", ["green", "darkgreen", "lightgreen"]);
-                Bridge.CanvasJS.Examples.App.pieChart("pieChart").render();
+                Bridge.CanvasJS.Examples.App.pieChart("pieChart").render(); // the color set is applied here
     
                 Bridge.CanvasJS.Examples.App.sinCurve("sinCurve").render();
             },
@@ -32,6 +32,7 @@
                 return new CanvasJS.Chart("columnChart", { title: { text: "Fruit Sales" }, interactivityEnabled: false, data: [{ type: "column", dataPoints: [Bridge.CanvasJS.Examples.App.point$1("Apple", 10), Bridge.CanvasJS.Examples.App.point$1("Orange", 15), Bridge.CanvasJS.Examples.App.point$1("Banana", 25), Bridge.CanvasJS.Examples.App.point$1("Mango", 30), Bridge.CanvasJS.Examples.App.point$1("Grape", 28)] }] });
             },
             pieChart: function (elementId) {
+    
                 return new CanvasJS.Chart("pieChart", { title: { text: "Favorite languages" }, colorSet: "greenish", interactivityEnabled: false, data: [{ type: "pie", dataPoints: [Bridge.CanvasJS.Examples.App.point$1("C#", 40), Bridge.CanvasJS.Examples.App.point$1("F#", 40), Bridge.CanvasJS.Examples.App.point$1("Javascript", 20)] }] });
             },
             sinCurve: function (elementId) {
