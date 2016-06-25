@@ -42,7 +42,7 @@ namespace Bridge.CanvasJS.Examples
 
         private static CanvasJS.Chart ColumnChart(string elementId)
         {
-            return new CanvasJS.Chart("columnChart", new ChartOptions
+            return new CanvasJS.Chart(elementId, new ChartOptions
             {
                 Title = new ChartTitle { Text = "Fruit Sales" },
                 InteractivityEnabled = false,
@@ -67,7 +67,7 @@ namespace Bridge.CanvasJS.Examples
         private static CanvasJS.Chart PieChart(string elementId)
         {
             
-            return new CanvasJS.Chart("pieChart", new ChartOptions
+            return new CanvasJS.Chart(elementId, new ChartOptions
             {
                 Title = new ChartTitle { Text = "Favorite languages" },
                 ColorSet = "greenish", // the "greenish" color set applied to this chart
@@ -95,7 +95,7 @@ namespace Bridge.CanvasJS.Examples
             for (var i = 0.0; i < 2.0 * Math.PI; i += 0.1)
                 points.Add(Point(i, Math.Sin(i)));
 
-            return new CanvasJS.Chart("sinCurve", new ChartOptions
+            return new CanvasJS.Chart(elementId, new ChartOptions
             {
                 Title = new ChartTitle { Text = "Sin curve" },
                 InteractivityEnabled = false,

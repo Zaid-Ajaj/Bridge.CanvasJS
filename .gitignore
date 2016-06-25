@@ -243,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Bridge.CanvasJS.Examples/Bridge/output/bridge.canvasJS.examples.js

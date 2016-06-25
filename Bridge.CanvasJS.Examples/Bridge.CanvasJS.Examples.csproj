@@ -55,7 +55,6 @@
   <ItemGroup>
     <Content Include="Bridge\output\canvasjs.min.js" />
     <Content Include="Bridge\output\examples.html" />
-    <Content Include="Bridge\output\readme.txt" />
     <Content Include="Bridge\www\demo.html" />
   </ItemGroup>
   <ItemGroup>
