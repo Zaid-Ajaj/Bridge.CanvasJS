@@ -244,3 +244,12 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /Bridge.CanvasJS.Examples/Bridge/output/bridge.canvasJS.examples.js
+/Bridge.CanvasJS/Bridge/output/bridge.min.js
+/Bridge.CanvasJS/Bridge/output/bridge.js
+/Bridge.CanvasJS/Bridge/output/bridge.canvasJS.min.js
+/Bridge.CanvasJS/Bridge/output/bridge.canvasJS.js
+/Bridge.CanvasJS.Examples/Bridge/output/bridge.min.js
+/Bridge.CanvasJS.Examples/Bridge/output/bridge.js
+/Bridge.CanvasJS.Examples/Bridge/output/bridge.canvasJS.min.js
+/Bridge.CanvasJS.Examples/Bridge/output/bridge.canvasJS.js
+/Bridge.CanvasJS.Examples/Bridge/output/bridge.canvasJS.examples.min.js
